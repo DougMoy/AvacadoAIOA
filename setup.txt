@@ -1,0 +1,8 @@
+1. Run pip install -r requirements.txt to install all necessary python libraries
+
+2. For coding tasks 1 and 2, just run the jupyter notebooks associated with the problems
+
+3. For coding task 3, run the fastAPI.py file. To test, run:
+
+Invoke-RestMethod -Uri "http://localhost:8000/process-text/" -Method Post -ContentType "application/json" -Body '{"text": "This is an example article text."}'
+
